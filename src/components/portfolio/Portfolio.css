@@ -55,6 +55,88 @@
 .bookmarked {
   color: #e78f63;
 }
+/* Container for each project */
+.project {
+  display: flex;
+  align-items: center;
+  
+  gap: 1.5rem;
+  background: var(--color-bg-variant);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  padding: 1.5rem;
+  border : 0.1px solid var(--color-bg-variant);
+
+  margin-bottom: 2rem;
+  transition: var(--transition);
+  backdrop-filter: blur(5px);
+}
+
+.project:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  cursor: default;
+}
+
+/* Image styling */
+.project img {
+  width: 320px;
+  min-width: 80px; /* ensures it's visible on small screens */
+  border-radius: 10px;
+  object-fit: cover;
+  border : 0.8px solid var(--color-bg-variant);
+
+}
+
+/* Content area */
+.proj-content,
+.project > div {
+  flex: 1;
+  text-align: left;       
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+.proj-content{
+  gap: 1rem;
+}
+
+
+/* Title */
+.project h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #e78f63;
+}
+
+/* Description */
+.project p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #949191;
+  margin-bottom: 1rem;
+  white-space: pre-line; /* preserves your bullet style with "•" */
+}
+
+/* Link button */
+.proj-link,
+.project a {
+  display: inline-block;
+  background:#e78f63; /* blue-600 */
+  color: rgb(26, 26, 26);
+  padding: 0.5rem 1.2rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.proj-link:hover,
+.project a:hover {
+  background:#ffffff; 
+  color: rgb(58, 58, 58);
+}
+
 /*----Media queries(medium devices)----*/
 
 @media screen and (max-width:1024px) {

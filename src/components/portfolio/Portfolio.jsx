@@ -11,6 +11,13 @@ import IMG8 from '../../assets/port10.jpg';
 import IMG9 from '../../assets/port11.jpg.webp';
 import { FaBookmark } from "react-icons/fa";
 import { FaRegBookmark } from "react-icons/fa6";
+import { HiOutlineExternalLink } from "react-icons/hi";
+
+import proj1 from '../../assets/project1.png';
+import proj2 from '../../assets/project2.png';
+import proj3 from '../../assets/project3.png';
+
+
 
 
 // data array
@@ -83,13 +90,83 @@ const Portfolio = () => {
     );
   };
   return (
+    <div>
+    <section id='web-portfolio'>
+  <h5>My Recent Work</h5>
+  <h2>Web Development Portfolio</h2>
+
+  <div className="container web_portfolio__container">
+    {/* Project 1 */}
+    <div className="project">
+      <img src={proj1} alt="Project 1" className="proj-image" />
+      <div className="proj-content">
+        <h2>LynxApp</h2>
+        <p>
+          • Tech Stack: React.js, Node.js, Express.js, MongoDB, Axios, JWT, Multer, Vercel, Render, Cloudinary <br/>
+          • Developing and managing a scalable full-stack social network for college students, offering secure login, dynamic posting, achievement tracking, and college-based community engagement. <br/>
+          • Implemented an AI-powered club recommendation system using NLP embeddings Xenova/all-MiniLM-L6-v2 and cosine similarity to match students with relevant campus clubs.
+        </p>
+        <a
+          href="https://lynx-app-five.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="proj-link"
+        >
+         <HiOutlineExternalLink/> View Project
+        </a>
+      </div>
+    </div>
+
+    {/* Project 2 */}
+    <div className="project">
+      <img src={proj2} alt="Project 2" className="proj-image" />
+      <div className="proj-content">
+        <h2>Portfolio Website</h2>
+        <p>
+          • Tech Stack: React.js, CSS, JavaScript, Vite, EmailJS, Vercel <br/>
+          • A personal portfolio website built using React.js, focused on clean UI/UX design, with media queries implemented for full support across mobile, tablet, and desktop devices. <br/>
+          • Integrated EmailJS for direct mail functionality, enabling seamless contact through the site.
+        </p>
+        <a
+          href="https://puneetarts-vpdw.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="proj-link"
+        >
+          <HiOutlineExternalLink/> View Project
+        </a>
+      </div>
+    </div>
+
+    {/* Project 3 */}
+    <div className="project">
+      <img src={proj3} alt="Project 3" className="proj-image" />
+      <div className="proj-content">
+        <h2>OM Electricals Sales & Services (Business Website)</h2>
+        <p>
+          • Tech Stack: React.js, CSS, JavaScript, Vite, Tailwind CSS, Vercel <br/>
+          • A business website for an electrical sales and services firm, focused on intuitive navigation and well-structured service sections.
+        </p>
+        <a
+          href="https://om-electricals.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="proj-link"
+        >
+          <HiOutlineExternalLink/> View Project
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
+      
       <h2>Art Portfolio</h2>
 
       <div className="container portfolio__container">
         {
-          data.map(({id,image,title, insta_view,demo})=>{
+          data.map(({id,image,title, insta_view})=>{
             return(
               <article key={id} className='portfolio__item'>
           <div className="portfolio__item-image">
@@ -115,6 +192,7 @@ const Portfolio = () => {
         
       </div>
     </section>
+    </div>
   )
 }
 
