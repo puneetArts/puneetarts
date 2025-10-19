@@ -16,6 +16,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import proj1 from '../../assets/project1.png';
 import proj2 from '../../assets/project2.png';
 import proj3 from '../../assets/project3.png';
+import proj4 from '../../assets/project4.png';
 
 
 
@@ -116,8 +117,30 @@ const Portfolio = () => {
         </a>
       </div>
     </div>
-
     {/* Project 2 */}
+    <div className="project">
+      <img src={proj4} alt="Project 1" className="proj-image" />
+      <div className="proj-content">
+        <h2>CodeMate</h2>
+        <p>
+          • Tech Stack: React.js, Node.js, Express.js, Google Gemini API, Vercel, Render <br/>
+          • Built an AI-powered code visualizer and review tool that uses the Google Gemini API to generate AI-driven code reviews
+and step-by-step algorithm visualizations. <br/>
+          • Engineered an advanced prompt system with a multi-rule format to ensure the AI produced consistently accurate and
+correctly formatted visual traces for complex data structures.
+        </p>
+        <a
+          href="https://codemate-kappa.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="proj-link"
+        >
+         <HiOutlineExternalLink/> View Project
+        </a>
+      </div>
+    </div>
+
+    {/* Project 3 */}
     <div className="project">
       <img src={proj2} alt="Project 2" className="proj-image" />
       <div className="proj-content">
@@ -138,7 +161,7 @@ const Portfolio = () => {
       </div>
     </div>
 
-    {/* Project 3 */}
+    {/* Project 4 */}
     <div className="project">
       <img src={proj3} alt="Project 3" className="proj-image" />
       <div className="proj-content">
