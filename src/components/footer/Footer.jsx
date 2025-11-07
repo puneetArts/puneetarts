@@ -14,8 +14,8 @@ const Footer = () => {
         <li className='permalinks-items'><a href="#about">About</a></li>
         <li className='permalinks-items'><a href="#experience">Experience</a></li>
         <li className='permalinks-items'><a href="#services">Services</a></li>
-        <li className='permalinks-items'><a href="#portfolio">Portfolio</a></li>
-        <li className='permalinks-items'><a href="#testimonial">Testimonials</a></li>
+        <li className='permalinks-items'><a href="#web-portfolio">Portfolio</a></li>
+        {/* <li className='permalinks-items'><a href="#testimonial">Testimonials</a></li> */}
         <li className='permalinks-items'><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">

@@ -23,25 +23,25 @@ const About = () => {
             <article className='about__card'>
               <TbAwardFilled className='about__icon' />
               <h5>Experience</h5>
-              <small>5+ years</small>
+              <small>Fresher</small>
 
 
-            </article>
+            {/* </article>
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>20+ Clients</small>
+              <small>20+ Clients</small> */}
 
 
             </article>
             <article className='about__card'>
               <MdOutlineFolderCopy className='about__icon' />
               <h5>Projects</h5>
-              <small>30+</small>
+              <small>6+</small>
             </article>
           </div>
 
-          <p>A creative artist with a passion for sketching and web design. I enjoy blending art with digital design to create visually engaging and user-friendly websites. Currently developing my skills further in web design while continuing to explore new ways to express creativity through sketches and digital media. Always open to learning and growing in both artistic and tech-driven spaces.</p>
+          <p>Results-driven Full Stack Developer with hands-on experience in building scalable, secure, and high-performance web applications using React.js, Node.js, Express.js, and MongoDB. Adept at integrating AI and cloud technologies to create intelligent and reliable systems. Demonstrated success in delivering full-stack projects such as LynxApp — a social platform with AI-powered recommendations — and CodeMate — an AI-driven code visualization tool. Strong problem-solving and design skills backed by a solid academic foundation (MCA, CGPA 9.18) and practical experience at Globentix Technologies. Passionate about innovation, performance optimization, and crafting seamless user experiences.</p>
 
           {/* <a href="#contact" className='btn btn-primary'>Let's Talk</a> */}
 

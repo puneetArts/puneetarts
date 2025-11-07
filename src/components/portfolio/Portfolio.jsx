@@ -183,7 +183,7 @@ correctly formatted visual traces for complex data structures.
   </div>
 </section>
 
-    <section id='portfolio'>
+    {/* <section id='portfolio'>
       
       <h2>Art Portfolio</h2>
 
@@ -214,7 +214,7 @@ correctly formatted visual traces for complex data structures.
         
         
       </div>
-    </section>
+    </section> */}
     </div>
   )
 }
