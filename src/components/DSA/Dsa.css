@@ -1,0 +1,178 @@
+.leetcode-stats > div h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-primary);
+}
+
+.leetcode__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.leetcode__container > div {
+  background: var(--color-bg-variant);
+  padding: 2.4rem 5rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  backdrop-filter: blur(4px);
+  transition: var(--transition);
+}
+
+.leetcode__container > div:hover {
+  background: transparent;
+  border: 1px solid var(--color-primary);
+  cursor: default;
+}
+
+.leet__head {
+  background: rgba(12, 35, 52, 0.467);
+  padding: 1.5rem;
+  border: 1px solid rgb(103, 100, 100);
+  border-radius: 1rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.leet__head h3 {
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.leet-logo {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+.difficulty-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  margin-top: 0.8rem;
+  text-align: left;
+}
+.problems-line {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.difficulty-stats p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400; 
+  letter-spacing: 0.3px;
+}
+
+.easy {
+  color: #4caf50;
+}
+
+.medium {
+  color: #ff9800;
+}
+
+.hard {
+  color: #d4554c;
+}
+
+.leetcode__link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bold;
+  max-width: 170px;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: rgba(12, 35, 52, 0.467);
+  border: 1px solid rgb(84, 82, 82);
+  padding: 0.6rem;
+  border-radius: 1rem;
+}
+
+.leetcode__link:hover {
+  text-decoration: none;
+  color:var(--color-primary);
+}
+.leetcode_card p:first-of-type {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.8rem;
+  position: relative;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+ .leetcode__content {
+    grid-template-columns: 1fr;
+  }
+
+/* .leetcode_card p:first-of-type::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: var(--color-primary);
+  margin: 0.4rem auto 0;
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--color-primary);
+} */
+
+.leetcode_card:hover p:first-of-type {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.solved-count {
+  font-size: 2rem;
+  font-weight: 800;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.4);
+}
+
+/*----Media queries(medium devices)----*/
+
+@media screen and (max-width:1024px) {
+ .leetcode__container>div{
+     width: 80%;
+     padding: 2rem;
+     margin: 0 auto;
+ }
+ .leetcode__container{
+  grid-template-columns: 1fr;
+ }
+ 
+ .leetcode__content{
+  padding: 1rem;
+ }
+}
+
+/*----Media queries(small devices)----*/
+
+
+@media screen and (max-width:780px) {
+   
+ .leetcode__container{
+  gap: 1rem;
+ }
+ .leetcode__container>div{
+  width: 100%;
+  padding: 2rem 1rem;
+   box-sizing: border-box;
+ }
+ .leetcode__content {
+    grid-template-columns: 1fr;
+  }
+  .leetcode__details {
+    margin: 0 0.5rem;
+  }
+}
+
+

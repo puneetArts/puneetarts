@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../assets/A51.png'
+import Me from '../../assets/dp.jpg'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { MdOutlineFolderCopy } from "react-icons/md";
@@ -37,7 +37,7 @@ const About = () => {
             <article className='about__card'>
               <MdOutlineFolderCopy className='about__icon' />
               <h5>Projects</h5>
-              <small>6+</small>
+              <small>10+</small>
             </article>
           </div>
 

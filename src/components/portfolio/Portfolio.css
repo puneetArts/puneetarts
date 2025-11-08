@@ -158,3 +158,102 @@
 }
  
 }
+/* For tablets and medium devices */
+@media screen and (max-width: 1024px) {
+  .web_portfolio__container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .project {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .project img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .proj-content {
+    padding: 0.5rem 0;
+  }
+
+  .proj-link {
+    margin-top: 0.5rem;
+  }
+}
+.tech-stack{
+    color: #ffffff !important;
+    margin-bottom: 3rem ;
+  }
+
+
+/* For mobile devices */
+@media screen and (max-width: 768px) {
+  .web_portfolio__container {
+    padding: 0 1rem;
+  }
+
+  .project {
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .project img {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 6px;
+  }
+
+  .proj-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .proj-content p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .proj-link {
+    font-size: 0.85rem;
+    padding: 0.45rem 1rem;
+  }
+}
+
+/* For very small screens */
+@media screen and (max-width: 480px) {
+  #web-portfolio h2 {
+    font-size: 1.3rem;
+  }
+
+  #web-portfolio h5 {
+    font-size: 0.9rem;
+  }
+
+  .project {
+    padding: 0.8rem;
+  }
+
+  .project img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .proj-content h2 {
+    font-size: 1.1rem;
+  }
+
+  .proj-content p {
+    font-size: 0.85rem;
+  }
+ 
+  .proj-link {
+    font-size: 0.8rem;
+    padding: 0.4rem 0.8rem;
+  }
+}

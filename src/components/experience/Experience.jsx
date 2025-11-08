@@ -45,6 +45,10 @@ const Experience = () => {
           <IoShieldCheckmarkSharp className='experience__details-icon' />
           <div><h4>RESTful APIs</h4><small className='text-light'>Experienced</small></div>
         </article>
+        <article className='experience__details'>
+          <IoShieldCheckmarkSharp className='experience__details-icon' />
+          <div><h4>AI Integration</h4><small className='text-light'>Beginner</small></div>
+        </article>
       </div>
     </div>
 
