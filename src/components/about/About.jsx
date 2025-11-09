@@ -4,6 +4,7 @@ import Me from '../../assets/dp.jpg'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { MdOutlineFolderCopy } from "react-icons/md";
+import { BsBoxes } from "react-icons/bs";
 
 const About = () => {
   return (
@@ -26,11 +27,11 @@ const About = () => {
               <small>Fresher</small>
 
 
-            {/* </article>
+            </article>
             <article className='about__card'>
-              <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>20+ Clients</small> */}
+              <BsBoxes className='about__icon' />
+              <h5>DSA</h5>
+              <small>200+</small>
 
 
             </article>
