@@ -15,8 +15,8 @@ const Dsa = () => {
         if (!response.ok) throw new Error('Failed to fetch LeetCode stats');
         const data = await response.json();
 
-        // if API returns null or invalid response
-        if (!data || !data.totalSolved) throw new Error('Invalid API data');
+        if (!data || !data.totalSolved) throw new Error('Invalid API data');         // if API returns null or invalid response
+
 
         setStats(data);
       } catch (error) {
