@@ -51,6 +51,7 @@ body{
   
   align-items: center;    /* horizontally centers children */
   text-align: center;     /* for text and inline elements */
+  
 }
 
 h1 , h2, h3,h4,h5{

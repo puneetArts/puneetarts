@@ -9,7 +9,7 @@
   border : 1px solid var(--color-primary);
   height: fit-content;
   transition: var(--transition);
-  backdrop-filter: blur(4px);
+  backdrop-filter: blur(6px);
 }
 .service:hover{
   background: transparent;
