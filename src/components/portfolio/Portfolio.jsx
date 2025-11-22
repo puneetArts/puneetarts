@@ -106,10 +106,10 @@ const Portfolio = () => {
                     JWT, Multer, Vercel, Render, Cloudinary{" "}
                   </span>
                 </b>
-                <br /> <br />• Developing and managing a scalable full-stack social
-                network for college students, offering secure login, dynamic
-                posting, achievement tracking, and college-based community
-                engagement. <br />• Implemented an AI-powered club
+                <br /> <br />• Developing and managing a scalable full-stack
+                social network for college students, offering secure login,
+                dynamic posting, achievement tracking, and college-based
+                community engagement. <br />• Implemented an AI-powered club
                 recommendation system using NLP embeddings
                 Xenova/all-MiniLM-L6-v2 and cosine similarity to match students
                 with relevant campus clubs.
@@ -136,7 +136,8 @@ const Portfolio = () => {
                     API, Vercel, Render
                   </span>
                 </b>{" "}
-                <br /><br />
+                <br />
+                <br />
                 • Built an AI-powered code visualizer and review tool that uses
                 the Google Gemini API to generate AI-driven code reviews and
                 step-by-step algorithm visualizations. <br />• Engineered an
@@ -166,7 +167,8 @@ const Portfolio = () => {
                     Tech Stack: React.js, CSS, JavaScript, Vite, EmailJS, Vercel{" "}
                   </span>
                 </b>
-                <br /><br />
+                <br />
+                <br />
                 • A personal portfolio website built using React.js, focused on
                 clean UI/UX design, with media queries implemented for full
                 support across mobile, tablet, and desktop devices. <br />•
@@ -192,15 +194,19 @@ const Portfolio = () => {
               <p>
                 <b>
                   <span className="tech-stack">
-                    Tech Stack: React.js, CSS, JavaScript, Vite, Tailwind CSS,
-                    Vercel
+                    Tech Stack: React.js, Node.js, Pinecone, Groq LLM, Tailwind
+                    CSS, Vercel
                   </span>
-                </b>{" "}<br />
-                <br />• Built and deployed a scalable business website on AWS S3
-                with 99.9% uptime, reducing maintenance overhead and ensuring
-                continuous availability.<br/> 
-                • Leveraged serverless architecture for
-                minimal maintenance and improved scalability.
+                </b>{" "}
+                <br />
+                <br />• Built and deployed a professional business website
+                featuring an AI chatbot, architecting an AI-based customer
+                support system using Groq LLM and Pinecone to improve overall
+                load performance by 40% and increase real-time, context-aware
+                response accuracy by 65%.
+                <br />• Integrated a PDF-based RAG retrieval pipeline with
+                LangChain and Pinecone embeddings, achieving over 90% precision
+                in surfacing technical and policy documents for users.
               </p>
               <a
                 href="https://om-electricals.vercel.app/"
