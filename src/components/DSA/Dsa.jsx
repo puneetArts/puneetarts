@@ -30,7 +30,7 @@ const Dsa = () => {
 
   // fallback for if API fails
   const leetFallback = {
-    totalSolved: '120+',
+    totalSolved: '140+',
     easySolved: 40,
     mediumSolved: 45,
     hardSolved: 15,
