@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import Me from '../../assets/dp.jpg'
+import Me from '../../assets/mdp.jpg'
 import { TbAwardFilled } from "react-icons/tb";
 import { FiUsers } from "react-icons/fi";
 import { MdOutlineFolderCopy } from "react-icons/md";
